@@ -725,6 +725,54 @@ h1, h2, h3, h4, h5 {
   font-size: 15px;
 }
 
+.cta-section {
+  margin-top: 7rem;
+}
+.cta-section .cta-wrap {
+  margin-bottom: -50px;
+  border-radius: 40px;
+  padding: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 4;
+}
+.cta-section .cta-wrap:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(16, 26, 36, 0.7);
+  width: 100%;
+}
+.cta-section .cta-wrap .subscribe-form, .cta-section .cta-wrap .subscribe-form-wrap {
+  z-index: 2;
+  position: relative;
+}
+.cta-section .cta-wrap h3 {
+  font-size: 50px;
+  color: #fff;
+}
+.cta-section .cta-wrap input[type=email] {
+  padding: 20px 30px;
+  height: 80px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: none !important;
+}
+.cta-section .cta-wrap .btn {
+  position: absolute;
+  border-radius: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 12px;
+  font-family: "Inter", sans-serif;
+}
+
 .footer-section {
   padding-top: 9rem;
   padding-bottom: 7rem;

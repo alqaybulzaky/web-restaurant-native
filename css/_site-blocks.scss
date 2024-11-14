@@ -438,6 +438,56 @@
         }
     }
 }
+// CTA section
+.cta-section {
+    margin-top: 7rem;
+    .cta-wrap {
+        margin-bottom: -50px;
+        border-radius: 40px;
+        padding: 50px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        z-index: 4;
+        &:before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba($dark, .7);
+            width: 100%;
+        }
+        .subscribe-form, .subscribe-form-wrap {
+            z-index: 2;
+            position: relative;
+        }
+        h3 {
+            font-size: 50px;
+            color: $white;
+        }
+        input[type="email"] {
+            padding: 20px 30px;
+            height: 80px;
+            border-radius: 20px;
+            border: none;
+            box-shadow: none!important;
+        }
+        .btn {
+            position: absolute;
+            border-radius: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 12px;
+            font-family: $font-family;
+        }
+    }
+}
+
+
 
 
 //Footer section
