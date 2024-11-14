@@ -89,13 +89,13 @@ h1, h2, h3, h4, h5 {
   left: 50px;
 }
 
-.untree_co-section {
+.untree-co-section {
   padding: 7rem 0;
 }
-.untree_co-section .heading {
+.untree-co-section .heading {
   font-size: 60px;
 }
-.untree_co-section .excerpt {
+.untree-co-section .excerpt {
   line-height: 29px;
 }
 
@@ -716,8 +716,8 @@ h1, h2, h3, h4, h5 {
 .testimonial-section .testimonial-block blockquote {
   color: #101A24;
 }
-.testimonial-section .testimonial-block .author-info .h3 {
-  font-size: 16px;
+.testimonial-section .testimonial-block .author-info h2 {
+  font-size: 50px;
   font-family: "Inter", sans-serif;
   margin-bottom: 0;
 }
@@ -754,7 +754,7 @@ h1, h2, h3, h4, h5 {
   position: relative;
 }
 .cta-section .cta-wrap h3 {
-  font-size: 50px;
+  font-size: 16px;
   color: #fff;
 }
 .cta-section .cta-wrap input[type=email] {
