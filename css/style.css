@@ -716,7 +716,7 @@ h1, h2, h3, h4, h5 {
 .testimonial-section .testimonial-block blockquote {
   color: #101A24;
 }
-.testimonial-section .testimonial-block .author-info h3 {
+.testimonial-section .testimonial-block .author-info .h3 {
   font-size: 16px;
   font-family: "Inter", sans-serif;
   margin-bottom: 0;
